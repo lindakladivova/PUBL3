@@ -53,5 +53,4 @@ begin
     end if;
     
     return nova_geometrie;
-
 end;
