@@ -54,6 +54,4 @@ begin
     
     return nova_geometrie;
 
-
-
 end;
