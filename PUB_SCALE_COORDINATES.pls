@@ -7,8 +7,7 @@ begin
 
     IF geometrie IS NULL THEN 
           RETURN NULL;
-    END IF;
-    
+    END IF;  
     -- zkopiruje geometrii
     nova_geometrie := sdo_geometry(
                         geometrie.sdo_gtype,
@@ -50,10 +49,7 @@ begin
         end if;
     end loop;
     
-    end if;
-    
+    end if;    
     return nova_geometrie;
-
-
-
+    
 end;
