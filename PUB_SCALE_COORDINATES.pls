@@ -49,7 +49,7 @@ begin
         end if;
     end loop;
     
-    end if;
-    
+    end if;    
     return nova_geometrie;
+    
 end;
